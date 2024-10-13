@@ -9,24 +9,24 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
     text-align: center;
-    border-top: 8px solid #3498db; /* Accent color on top */
+    border-top: 8px solid #3498db;
 }
 
 h2 {
     margin-bottom: 20px;
     font-size: 1.8em;
-    color: #2c3e50; /* Darker blue */
+    color: #2c3e50; 
 }
 
 input[type="file"] {
     margin: 15px 0;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #3498db; /* Blue border */
+    border: 2px solid #3498db;
     width: 100%;
     font-size: 1em;
     cursor: pointer;
-    background-color: #f0f8ff; /* Light blue background */
+    background-color: #f0f8ff;
 }
 
 .output-container {
@@ -34,18 +34,18 @@ input[type="file"] {
     background-color: #f7f9fc;
     border-radius: 8px;
     padding: 20px;
-    border: 1px solid #e0e6ed; /* Light grey border */
+    border: 1px solid #e0e6ed;
 }
 
 textarea {
     width: 100%;
-    border: 1px solid #bdc3c7; /* Grey border */
+    border: 1px solid #bdc3c7; 
     border-radius: 5px;
     padding: 10px;
     font-size: 0.95em;
     margin-top: 15px;
-    background-color: #fbfbfd; /* Very light grey */
-    color: #2c3e50; /* Darker text for contrast */
+    background-color: #fbfbfd;
+    color: #2c3e50; 
     resize: none;
 }
 
@@ -53,7 +53,7 @@ button.copy-button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #e67e22; /* Orange button */
+    background-color: #e67e22; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -62,33 +62,30 @@ button.copy-button {
 }
 
 button.copy-button:hover {
-    background-color: #d35400; /* Darker orange on hover */
+    background-color: #d35400;
 }
 
 .copy-status {
     margin-top: 10px;
     font-size: 0.95em;
     font-weight: bold;
-    color: #28a745; /* Success green */
+    color: #28a745; 
 }
 
 .copy-status.failed {
-    color: #e74c3c; /* Failure red */
+    color: #e74c3c; 
 }
-
-/* Additional enhancements */
 
 p {
     font-size: 1em;
-    color: #34495e; /* Dark grey-blue for text */
+    color: #34495e; 
 }
 
 strong {
     font-weight: bold;
-    color: #2c3e50; /* Darker for emphasis */
+    color: #2c3e50; 
 }
 
-/* Optional: Add hover effect to file input */
 input[type="file"]:hover {
-    background-color: #e0f7ff; /* Lighter blue on hover */
+    background-color: #e0f7ff; 
 }
